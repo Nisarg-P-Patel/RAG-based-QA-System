@@ -1,0 +1,45 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="rag_assistant",
+    version="1.0.0",
+    description="RAG-based AI Automation tool for RFP Response Generation",
+    long_description="This package provides a Retrieval-Augmented Generation (RAG) pipeline for automating RFP responses and document analysis.",
+    author="Nisarg Patel",
+    author_email="nisarg.patel@arista.com",
+    packages=find_packages(),
+    include_package_data=True,
+    install_requires=[
+        "torch==2.2.2",
+        "torchvision",
+        "torchaudio",
+        "transformers",
+        "accelerate",
+        "sentence-transformers",
+        "huggingface_hub",
+        "langchain",
+        "langchain-community",
+        "llama-cpp-python",
+        "faiss-cpu",
+        "tqdm",
+        "numpy",
+        "pandas",
+        "scikit-learn",
+        "regex",
+        "python-docx",
+        "docx2pdf",
+        "requests",
+        "pdfplumber",
+        "pytesseract",
+        "pdf2image",
+        "Pillow",
+        "graphviz",
+        "gradio",
+        "concurrent-log-handler"
+    ],
+    classifiers=[
+        "Programming Language :: Python :: 3.10",
+        "License :: OSI Approved :: MIT License"
+    ],
+    python_requires=">=3.8.0.",
+)

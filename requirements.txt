@@ -1,0 +1,36 @@
+# Core Libraries
+numpy
+pandas
+tqdm
+scikit-learn
+
+
+# PDF + OCR Tools
+pdfplumber
+pytesseract
+pdf2image
+Pillow
+poppler-utils  # Note: for Linux, install via apt (not pip)
+# tesseract-ocr  # Note: install via apt (not pip)
+
+# NLP / LLM
+torch
+sentence-transformers
+transformers
+accelerate
+llama-cpp-python
+protobuf
+sentencepiece
+
+# LangChain & FAISS
+faiss-cpu  # Use faiss-gpu if on CUDA environment
+langchain
+langchain-community
+
+# UI and Visualization
+gradio
+graphviz
+
+# Utility
+python-docx
+requests==2.31.0
