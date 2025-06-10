@@ -1,4 +1,4 @@
-# 📘 RAG Assistant for RFP response generation
+# 📘 RAG Assistant for QA
 
 A domain-aware Retrieval-Augmented Generation (RAG) system powered by **local LLMs**, **FAISS vector search**, and an interactive **Gradio UI**. Designed for document-grounded question answering with transparency, offline support, and user feedback capture.
 
